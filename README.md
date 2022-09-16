@@ -59,7 +59,7 @@ and 🌐 *Web*.
 [extra-math]: https://www.npmjs.com/package/extra-math
 [extra-function]: https://www.npmjs.com/package/extra-function
 [extra-async-function]: https://www.npmjs.com/package/extra-async-function
-[extra-iterable]: https://github.com/nodef/extra-iterable
+[extra-iterable]: https://www.npmjs.com/package/extra-iterable
 [extra-child-process]: https://www.npmjs.com/package/extra-child-process
 [extra-path]: https://www.npmjs.com/package/extra-path
 [extra-fs]: https://www.npmjs.com/package/extra-fs
@@ -96,3 +96,10 @@ and 🌐 *Web*.
 [extra-string]: https://github.com/nodef/extra-string
 [extra-wordnet]: https://github.com/nodef/extra-wordnet
 [extra-sorted-array]: https://github.com/nodef/extra-sorted-array
+
+<br>
+<br>
+
+
+[![](https://img.youtube.com/vi/X-w8RFt_jRw/maxresdefault.jpg)](https://www.youtube.com/watch?v=X-w8RFt_jRw)
+[![ORG](https://img.shields.io/badge/org-wolfram77-green?logo=Org)](https://wolfram77.github.io)
