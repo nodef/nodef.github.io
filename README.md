@@ -40,6 +40,7 @@ and 🌐 *Web*.
 | 🌐 [extra-math] | A collection of common mathematical functions. |
 | 🌐 [extra-function] | A collection of ways for transforming functions. |
 | 🌐 [extra-async-function] | A collection of ways for transforming async functions. |
+| 🌐 [extra-array] | A collection of functions for working with Arrays. |
 | 🌐 [extra-iterable] | A collection of functions for operating upon iterables. |
 | 📦 [extra-child-process] | Useful additions to inbuilt child_process module. |
 | 🌐 [extra-path] | Useful additions to inbuilt path module. |
@@ -59,6 +60,7 @@ and 🌐 *Web*.
 [extra-math]: https://www.npmjs.com/package/extra-math
 [extra-function]: https://www.npmjs.com/package/extra-function
 [extra-async-function]: https://www.npmjs.com/package/extra-async-function
+[extra-array]: https://github.com/nodef/extra-array
 [extra-iterable]: https://www.npmjs.com/package/extra-iterable
 [extra-child-process]: https://www.npmjs.com/package/extra-child-process
 [extra-path]: https://www.npmjs.com/package/extra-path
@@ -76,7 +78,6 @@ and 🌐 *Web*.
 
 | Package | Description |
 |  ----  |  ----  |
-| 🌐 [extra-array] | An array is a collection of values, stored contiguously. |
 | 🌐 [extra-entries] | Entries is a list of key-value pairs, with unique keys. |
 | 🌐 [extra-lists] | Lists is a pair of key list and value list, with unique keys. |
 | 🌐 [extra-set] | A set is a collection of unique values. |
@@ -87,7 +88,6 @@ and 🌐 *Web*.
 | 🌐 [extra-sorted-array] | A sorted array is a collection of values, arranged in an order. |
 
 
-[extra-array]: https://github.com/nodef/extra-array
 [extra-entries]: https://github.com/nodef/extra-entries
 [extra-lists]: https://github.com/nodef/extra-lists
 [extra-set]: https://github.com/nodef/extra-set
