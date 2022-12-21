@@ -32,16 +32,19 @@ and 🌐 *Web*.
 
 | Package | Description |
 |  ----  |  ----  |
-| 🌐 [extra-boolean] | A collection of common boolean functions. |
-| 🌐 [extra-bit] | A collection of common bitwise operations. |
-| 🌐 [extra-integer] | Common operations for 32-bit integers. |
-| 🌐 [extra-number] | A collection of common number functions. |
-| 🌐 [extra-bigint] | A collection of functions for working with BigInts. |
-| 🌐 [extra-math] | A collection of common mathematical functions. |
-| 🌐 [extra-function] | A collection of ways for transforming functions. |
-| 🌐 [extra-async-function] | A collection of ways for transforming async functions. |
-| 🌐 [extra-array] | A collection of functions for working with Arrays. |
-| 🌐 [extra-iterable] | A collection of functions for operating upon iterables. |
+| 🌐 [extra-boolean] | Boolean data type has two possible truth values to represent logic. |
+| 🌐 [extra-bit] | The bit is a basic unit of information in information theory, computing. |
+| 🌐 [extra-integer] | A 32-bit integer can store values from −2^31 to 2^31 − 1. |
+| 🌐 [extra-number] | A number is a mathematical object used to count, measure, and label. |
+| 🌐 [extra-bigint] | A BigInt can represent whole numbers larger than 2⁵³ - 1. |
+| 🌐 [extra-math] | Mathematics is the classification and study of all possible patterns. |
+| 🌐 [extra-function] | A function is a set of statements that performs a task or calculates a value. |
+| 🌐 [extra-async-function] | An async function is a function that delivers its result asynchronously (through Promise). |
+| 🌐 [extra-array] | An Array is a collection of values, stored contiguously. |
+| 🌐 [extra-iterable] | An iterable is a sequence of values. |
+| 🌐 [extra-set] | A Set is a collection of unique values. |
+| 🌐 [extra-map] | A Map is a collection of key-value pairs, with unique keys. |
+| 🌐 [extra-object] | An Object is a collection of properties (entries), each with a name (key) and a value. |
 | 📦 [extra-child-process] | Useful additions to inbuilt child_process module. |
 | 🌐 [extra-path] | Useful additions to inbuilt path module. |
 | 📦 [extra-fs] | Useful additions to inbuilt fs module. |
@@ -62,6 +65,9 @@ and 🌐 *Web*.
 [extra-async-function]: https://www.npmjs.com/package/extra-async-function
 [extra-array]: https://github.com/nodef/extra-array
 [extra-iterable]: https://www.npmjs.com/package/extra-iterable
+[extra-set]: https://github.com/nodef/extra-set
+[extra-map]: https://github.com/nodef/extra-map
+[extra-object]: https://github.com/nodef/extra-object
 [extra-child-process]: https://www.npmjs.com/package/extra-child-process
 [extra-path]: https://www.npmjs.com/package/extra-path
 [extra-fs]: https://www.npmjs.com/package/extra-fs
@@ -80,9 +86,6 @@ and 🌐 *Web*.
 |  ----  |  ----  |
 | 🌐 [extra-entries] | Entries is a list of key-value pairs, with unique keys. |
 | 🌐 [extra-lists] | Lists is a pair of key list and value list, with unique keys. |
-| 🌐 [extra-set] | A set is a collection of unique values. |
-| 🌐 [extra-map] | A map is a collection of key-value pairs, with unique keys. |
-| 🌐 [extra-object] | An object is a collection of properties, with associated values. |
 | 🌐 [extra-string] | A collection of common string functions. |
 | 🌐 [extra-wordnet] | WordNet is a lexical database of semantic relations between words. |
 | 🌐 [extra-sorted-array] | A sorted array is a collection of values, arranged in an order. |
@@ -90,9 +93,6 @@ and 🌐 *Web*.
 
 [extra-entries]: https://github.com/nodef/extra-entries
 [extra-lists]: https://github.com/nodef/extra-lists
-[extra-set]: https://github.com/nodef/extra-set
-[extra-map]: https://github.com/nodef/extra-map
-[extra-object]: https://github.com/nodef/extra-object
 [extra-string]: https://github.com/nodef/extra-string
 [extra-wordnet]: https://github.com/nodef/extra-wordnet
 [extra-sorted-array]: https://github.com/nodef/extra-sorted-array
