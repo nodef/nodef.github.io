@@ -42,9 +42,10 @@ and 🌐 *Web*.
 | 🌐 [extra-async-function] | An async function is a function that delivers its result asynchronously (through Promise). |
 | 🌐 [extra-array] | An Array is a collection of values, stored contiguously. |
 | 🌐 [extra-iterable] | An iterable is a sequence of values. |
+| 🌐 [extra-object] | An Object is a collection of properties (entries), each with a name (key) and a value. |
 | 🌐 [extra-set] | A Set is a collection of unique values. |
 | 🌐 [extra-map] | A Map is a collection of key-value pairs, with unique keys. |
-| 🌐 [extra-object] | An Object is a collection of properties (entries), each with a name (key) and a value. |
+| 🌐 [extra-entries] | Entries is a list of key-value pairs, with unique keys. |
 | 📦 [extra-child-process] | Useful additions to inbuilt child_process module. |
 | 🌐 [extra-path] | Useful additions to inbuilt path module. |
 | 📦 [extra-fs] | Useful additions to inbuilt fs module. |
@@ -63,11 +64,12 @@ and 🌐 *Web*.
 [extra-math]: https://www.npmjs.com/package/extra-math
 [extra-function]: https://www.npmjs.com/package/extra-function
 [extra-async-function]: https://www.npmjs.com/package/extra-async-function
-[extra-array]: https://github.com/nodef/extra-array
+[extra-array]: https://www.npmjs.com/package/extra-array
 [extra-iterable]: https://www.npmjs.com/package/extra-iterable
-[extra-set]: https://github.com/nodef/extra-set
-[extra-map]: https://github.com/nodef/extra-map
-[extra-object]: https://github.com/nodef/extra-object
+[extra-object]: https://www.npmjs.com/package/extra-object
+[extra-set]: https://www.npmjs.com/package/extra-set
+[extra-map]: https://www.npmjs.com/package/extra-map
+[extra-entries]: https://www.npmjs.com/package/extra-entries
 [extra-child-process]: https://www.npmjs.com/package/extra-child-process
 [extra-path]: https://www.npmjs.com/package/extra-path
 [extra-fs]: https://www.npmjs.com/package/extra-fs
@@ -84,14 +86,12 @@ and 🌐 *Web*.
 
 | Package | Description |
 |  ----  |  ----  |
-| 🌐 [extra-entries] | Entries is a list of key-value pairs, with unique keys. |
 | 🌐 [extra-lists] | Lists is a pair of key list and value list, with unique keys. |
 | 🌐 [extra-string] | A collection of common string functions. |
 | 🌐 [extra-wordnet] | WordNet is a lexical database of semantic relations between words. |
 | 🌐 [extra-sorted-array] | A sorted array is a collection of values, arranged in an order. |
 
 
-[extra-entries]: https://github.com/nodef/extra-entries
 [extra-lists]: https://github.com/nodef/extra-lists
 [extra-string]: https://github.com/nodef/extra-string
 [extra-wordnet]: https://github.com/nodef/extra-wordnet
