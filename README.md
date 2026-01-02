@@ -22,6 +22,7 @@ Issues or suggestions regarding a specific library can and should be directed to
 
 | Package | Description |
 |  ----  |  ----  |
+| ⚙️ [subprocess.c] | 🐜 Single header process launching solution for C and C++; Neil Henning (2017). |
 | ⚙️ [tinycthread.c] | Small, portable implementation of the C11 threads API; Evan Nemerson (2012). |
 | ⚙️ [pthreads4w.c] | POSIX threads API for Windows from https://sourceforge.net/p/pthreads4w; Ben Elliston (1998). |
 | ⚙️ [minicoro.c] | Single header stackful cross-platform coroutine library in pure C; Eduardo Bart (2021). |
@@ -35,7 +36,6 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [opencl.c] | C/C++ language headers for the OpenCL API; The Khronos Group (2013). |
 | ⌛ **clew.c** | The OpenCL Extension Wrangler Library; Martijn Berger ([XXXX](https://github.com/martijnberger/clew)). |
 | ⌛ [bikeshed.c] | Lock free hierarchical work scheduler; Dan Engelbrecht (2019). |
-| ⌛ [subprocess.c] | 🐜 single header process launching solution for C and C++; Neil Henning (2017). |
 | ⌛ **jemalloc.c** | jemalloc is a general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support; Jason Evans ([XXXX](https://github.com/jemalloc/jemalloc)). |
 | ⌛ [genann.c] | simple neural network library in ANSI C; Lewis Van Winkle (2016). |
 | ⌛ [kann.c] | A lightweight C library for artificial neural networks; Attractive Chaos (2016). |
@@ -56,6 +56,7 @@ Issues or suggestions regarding a specific library can and should be directed to
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [clay.c] | High performance UI layout library in C; Nic Barker (2024). |
+| ⚙️ [microui.c] | A tiny immediate-mode UI library; rxi (2018). |
 | ⚙️ [tigr.c] | TIGR - the TIny GRaphics library for Windows, macOS, Linux, iOS and Android. |
 | ⚙️ [rgfw.c] | A cross platform lightweight single-header simple-to-use window abstraction library for creating graphical programs or libraries; Riley Mabb (2023). |
 | ⚙️ [glfw3.c] | A multi-platform library for OpenGL, OpenGL ES and Vulkan development on the desktop; Marcus Geelnard (2002). |
@@ -67,7 +68,7 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [sdl3.c] | Simple DirectMedia Layer; Sam Lantinga (1997). |
 | ⌛ **openvr.c** | OpenVR SDK; Valve Software ([XXXX](https://github.com/ValveSoftware/openvr)). |
 | ⌛ [openmodal.c] | Dependency free, cross-platform, single header lib to open native file modals; bzt (2023). |
-| ⌛ [tinyfiledialogs.c] | Modal dialogs inc. file open/save (Win/Mac/Linux); Guillaume Vareille (2014). |
+| ⌛ [tinyfiledialogs.c] | Modal dia  logs inc. file open/save (Win/Mac/Linux); Guillaume Vareille (2014). |
 | ⌛ [lightmapper.c] | A C/C++ single-file library for drop-in lightmap baking. Just use your existing OpenGL renderer to bounce light; ands (2016). |
 | ⌛ [sdl3.c] | Simple DirectMedia Layer; Sam Lantinga (1997). |
 | ⌛ [glew.c] | The OpenGL Extension Wrangler Library; Milan Ikits and Marcelo Magallon (2002). |
@@ -164,6 +165,7 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [webview.c] | Tiny cross-platform webview library for C/C++. Uses WebKit (GTK/Cocoa) and Edge WebView2 (Windows); Serge Zaitsev (2017). |
 | ⌛ **fex.cxx** | A fast usermode x86 and x86-64 emulator for Arm64 Linux; Ryan Houdek ([XXXX](https://github.com/FEX-Emu/FEX)). |
 | ⌛ **vixl.c** | AArch32 and AArch64 Runtime Code Generation Library; Linaro ([XXXX](https://github.com/Linaro/vixl)). |
+| ⌛ **v86.c** | x86 PC emulator and x86-to-wasm JIT, running in the browser; Fabian ([XXXX](https://github.com/copy/v86)). |
 | ⌛ [agnes.c] | NES emulation library with an easy to use API; Krzysztof Gabis (2019). |
 | ⌛ [apelang.c] | Ape Programming Language; Krzysztof Gabis (2020). |
 | ⌛ **softfloat3.c** | SoftFloat release 3; John Hauser ([XXXX](https://github.com/ucb-bar/berkeley-softfloat-3)). |
@@ -201,6 +203,7 @@ Issues or suggestions regarding a specific library can and should be directed to
 Source: [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs)
 
 See more:
+- [A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff](https://github.com/fffaraz/awesome-cpp)
 - [Libraries developed by Eskil Steenberg](https://gamepipeline.org/index.html)
 
 
@@ -247,6 +250,7 @@ See more:
 [linmath.c]: https://www.npmjs.com/package/linmath.c
 [lz4.c]: https://www.npmjs.com/package/lz4.c
 [microtar.c]: https://www.npmjs.com/package/microtar.c
+[microui.c]: https://www.npmjs.com/package/microui.c
 [minctest.c]: https://www.npmjs.com/package/minctest.c
 [miniaudio.c]: https://www.npmjs.com/package/miniaudio.c
 [minicoro.c]: https://www.npmjs.com/package/minicoro.c
