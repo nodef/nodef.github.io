@@ -567,6 +567,22 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [snap-data.sh]: https://www.npmjs.com/package/snap-data.sh
 
 <br>
+
+
+## GitHub Actions
+
+| Package | Description |
+|  ----  |  ----  |
+| 🎬 [Configure git] | A GitHub Action for configuring git. |
+| 🎬 [Configure npm] | A GitHub Action for configuring npm. |
+| 🎬 [JSR Mirror] | A GitHub Action for mirroring JavaScript Registry (JSR) packages to other registries. |
+
+
+[Configure git]: https://github.com/marketplace/actions/configure-git
+[Configure npm]: https://github.com/marketplace/actions/configure-npm
+[JSR Mirror]: https://github.com/marketplace/actions/jsr-mirror
+
+<br>
 <br>
 
 
