@@ -1,0 +1,19 @@
+/* Ensure the triangle marker is visible */
+summary {
+  display: list-item;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Optional: Add a custom chevron if the theme still hides it */
+details summary::-webkit-details-marker {
+  display: list-item;
+}
+
+/** Spacing adjustments **/
+summary {
+  padding: 0.5rem 0;
+}
+details p {
+  margin: 0;
+}

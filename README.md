@@ -5,11 +5,15 @@ Packages made for ⚙️ C/C++, 📦 *Node.js*, 🌐 *Web*, 🐚 *Bash*, and �
 
 ## Single-file C/C++ libraries (cpoach project)
 
-The **cpoach** project was motivated by the need for easy-to-use, C/C++ libraries that can be effortlessly installed (via `npm`), and integrated into C/C++ projects - without the hassle of build systems (rather, just like `#include <stdio.h>`), and without including the third-party libraries into the project's version control. This is mainly to facilitate in-class demonstrations and assignments. The name **cpoach** is a playful nod to the idea of *poaching* awesome C/C++ libraries and making them easily accessible for educational purposes.
+The **cpoach** project was motivated by the need for easy-to-use, C/C++ libraries that can be effortlessly installed (via `npm`), and integrated into C/C++ projects - without the hassle of build systems (rather, just like `#include <stdio.h>`), and without including the third-party libraries into the project's version control. This is mainly to facilitate in-class demonstrations and assignments. The name **cpoach** is a playful nod to the idea of *poaching* awesome C/C++ libraries and making them easily accessible for educational purposes. Many of these libraries are listed in [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs), or [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp). I was listening to Eskil Steenberg's talk on [Advanced C](https://www.youtube.com/watch?v=w3_e9vZj7D8), which you should also look into. He also has a [collection of C libraries](https://gamepipeline.org/index.html) that you may want to explore.
 
-Issues or suggestions regarding a specific library can and should be directed to the original library repository. However, for issues or suggestions related to the **cpoach** project itself, please [open an issue](https://github.com/nodef/nodef.github.io/issues) in [this repository](https://github.com/nodef/nodef.github.io).
+Issues or suggestions regarding a specific library should be directed to the original library repository. However, for issues or suggestions related to the **cpoach** project, please [open an issue here](https://github.com/nodef/nodef.github.io/issues).
 
-### 🍳 Army knives
+Below is a categorized list of single-file C/C++ libraries available through the **cpoach** project:
+
+<details markdown="1">
+<summary>🍳 Army knives</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -18,7 +22,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [libgb.c] | gb single-file public domain libraries for C & C++; gingerBill (2015). |
 | ⌛ [prideout.c] | single-file C libraries from Philip Allan Rideout; Philip Rideout (2015). |
 
-### 🍳 High Performance Computing (HPC)
+<br>
+</details>
+
+<details markdown="1">
+<summary>🍳 High Performance Computing (HPC)</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -51,7 +60,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [uuid_h.c] | Single file, STB-style, "lib" to generate uuid:s; Fredrik Kihlander (2016). |
 | ⌛ **range-v3.cxx** | Range library for C++14/17/20, basis for C++20's std::ranges; Eric Niebler ([XXXX](https://github.com/Tessil/robin-map)). |
 
-### 🍳 Computer Graphics
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Computer Graphics</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -74,14 +88,24 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [glew.c] | The OpenGL Extension Wrangler Library; Milan Ikits and Marcelo Magallon (2002). |
 | ⌛ [rfont.c] | Simple-to-use single header modular font rendering library written in C; Riley Mabb (2023). |
 
-### 🍳 Video
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Video</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [pl_mpeg.c] | Single file C library for decoding MPEG1 Video and MP2 Audio; Dominic Szablewski (2019). |
 | ⌛ [jo_mpeg.c] | Simple, Minimalistic, No Allocations MPEG writer - without audio; Jon Olick and Wladislav Artsimovich (2016). |
 
-### 🍳 Audio
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Audio</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -92,7 +116,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [pocketmod.c] | Small ANSI C library for turning ProTracker MOD files into playable PCM audio; rombankzero (2018). |
 | ⌛ [atomix.c] | Portable, single-file, wait-free atomic sound mixing library utilizing SSE-accelerated mixing; BareRose (2018). |
 
-### 🍳 Networking
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Networking</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -100,7 +129,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [webby.c] | A tiny webserver for game development; Andreas Fredriksson (2012). |
 | ⌛ [concord.c] | A Discord API wrapper library made in C; Cogmasters (2020). |
 
-### 🍳 Compression
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Compression</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -109,13 +143,23 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [microtar.c] | A lightweight tar library written in ANSI C; rxi (2016). |
 | ⌛ [miniz.c] | miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz; Rich Geldreich (2011). |
 
-### 🍳 Cryptography
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Cryptography</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
 | ⌛ [monocypher.c] | An easy to use, easy to deploy crypto library; Loup Vaillant (2016). |
 
-### 🍳 Serialization
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Serialization</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -136,7 +180,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [kgflags.c] | kgflags is an easy to use command-line flag parsing library; Krzysztof Gabis (2020). |
 | ⌛ [linenoise.c] | A small self-contained alternative to readline and libedit; Salvatore Sanfilippo (2010). |
 
-### 🍳 Text Processing
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Text Processing</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -153,7 +202,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [levenshtein.c] | Levenshtein algorithm in C; Titus (2015). |
 | ⌛ **fmt.cxx** | A modern formatting library; Victor Zverovich ([XXXX](https://github.com/fmtlib/fmt)) |
 
-### 🍳 Emulation/Scripting
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Emulation/Scripting</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -170,7 +224,12 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [apelang.c] | Ape Programming Language; Krzysztof Gabis (2020). |
 | ⌛ **softfloat3.c** | SoftFloat release 3; John Hauser ([XXXX](https://github.com/ucb-bar/berkeley-softfloat-3)). |
 
-### 🍳 Testing/Debugging
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Testing/Debugging</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
@@ -191,21 +250,67 @@ Issues or suggestions regarding a specific library can and should be directed to
 | ⌛ [clove-unit.c] | Single-Header Unit Testing framework for C (interoperable with C++) with test autodiscovery feature; Federico De Felici (2021). |
 | ⌛ [walter.c] | Write unit tests in C with no boilerplate; irek (2022). |
 
-### 🍳 Others (C)
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Others</summary>
+<br>
 
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [hedley.c] | A C/C++ header to help move #ifdefs out of your code; Evan Nemerson (2016). |
 | ⌛ [endianness.c] | Simple public domain header to get endianess at compile time on a variety of platforms; rofl0r (2017). |
+| ⌛ [asap.cxx] | A C++ header-only library for creating, displaying, iterating and manipulating dates; Leonardo Guilherme de Freitas (2017). |
+| ⌛ [canvas_ity.cxx] | A tiny, single-header canvas-like 2D rasterizer for C++; Andrew Kensler (2022). |
+| ⌛ [catch2.cxx] | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010). |
+| ⌛ [cds_job.cxx] | C++11 lock-free job queue; Cort Stratton (2016). |
+| ⌛ [cimg.cxx] | The CImg Library is a small and open-source C++ toolkit for image processing; GREYC (2018). |
+| ⌛ [cista.cxx] | Cista is a simple, high-performance, zero-copy C++ serialization & reflection library; Felix Gündling (2018). |
+| ⌛ [cmdline.cxx] | A Command Line Parser; Hideyuki Tanaka (2009). |
+| ⌛ [cpp-httplib.cxx] | A C++ header-only HTTP/HTTPS server and client library; yhirose (2012). |
+| ⌛ [cpp-mmaplib.cxx] | A single file C++11 header-only memory mapped file library; yhirose (2016). |
+| ⌛ [cpp-peglib.cxx] | A single file C++ header-only PEG (Parsing Expression Grammars) library; yhirose (2015). |
+| ⌛ [cpp-unicodelib.cxx] | A C++17 header-only Unicode library. (Unicode 16.0.0); yhirose (2016). |
+| ⌛ [debug-draw.cxx] | Immediate-mode, renderer agnostic, lightweight debug drawing API; Guilherme Lampert (2015). |
+| ⌛ [doctest.cxx] | The fastest feature-rich C++11/14/17/20/23 single-header testing framework; Viktor Kirilov (2016). |
+| ⌛ [flags.cxx] | ⛳ Simple, extensible, header-only C++17 argument parser released into the public domain; sailormoon (2016). |
+| ⌛ [hippomocks.cxx] | Single-header mocking framework; Peter Bindels (2008). |
+| ⌛ [imgui.cxx] | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies; Omar (2014). |
+| ⌛ [immediate2d.cxx] | A C++ drawing framework for Windows that makes simple graphics programming as fun and easy as the days when computers booted directly to a BASIC prompt; Nicholas Piegdon (2017). |
+| ⌛ [inja.cxx] | A Template Engine for Modern C++; Berscheid (2017). |
+| ⌛ [jargsparser.cxx] | A head-only arguments parser(argsparser) c++11 lib; Zhengqiao Wang (2022). |
+| ⌛ [json.cxx] | JSON for Modern C++; Niels Lohmann (2013). |
+| ⌛ [linalg.cxx] | linalg.h is a single header, public domain, short vector math library for C++; Sterling Orsten (2016). |
+| ⌛ [lurlparser.cxx] | Lightweight URL & URI parser (RFC 1738, RFC 3986); Sergey Kosarevsky (2015). |
+| ⌛ [micropather.cxx] | MicroPather is a path finder and A* solver (astar or a-star) written in platform independent C++ that can be easily integrated into existing code. MicroPather focuses on being a path finding engine for video games but is a generic A* solver; Lee Thomason (2012). |
+| ⌛ [microprofile.cxx] | microprofile is an embeddable profiler; Jonas Meyer (2013). |
+| ⌛ [mini-yaml.cxx] | Single header YAML 1.0 C++11 serializer/deserializer; Jimmie Bergmann (2018). |
+| ⌛ [obfuscate.cxx] | Guaranteed compile-time string literal obfuscation header-only library for C++14; Adam Yaxley (2017). |
+| ⌛ [parg.cxx] | A header only c++ library for parsing command line arguments and generating usage/help output; Brett Robinson (2018). |
+| ⌛ [programoptions.cxx] | Single-header program options parsing library for C++11; Fytch (2017). |
+| ⌛ [pugixml.cxx] | Light-weight, simple and fast XML parser for C++ with XPath support; Arseny Kapoulkine (2006). |
+| ⌛ [random.cxx] | Random for modern C++ with convenient API; Illia (2017). |
+| ⌛ [simple-svg.cxx] | Easy to use SVG library for C++ (fork of legacy Google code project archive); Adi Shavit (2015). |
+| ⌛ [str_view.cxx] | Null-termination-aware string-view class for C++; Adam Sawicki (2018). |
+| ⌛ [str.cxx] | Lightweight C++ string type with a configurable local buffer; Omar (2015). |
+| ⌛ [swarmz.cxx] | A free, header-only C++ swarming (flocking) library for real-time applications; Michael (2016). |
+| ⌛ [tinyformat.cxx] | Minimal, type safe printf replacement library for C++; Claire Foster (2011). |
+| ⌛ [tinyobjloader.cxx] | Tiny but powerful single file wavefront obj loader; tinyobjloader (2012). |
+| ⌛ [tinyply.cxx] | 🌍 C++11 ply 3d mesh format importer & exporter; Dimitri Diakopoulos (2015). |
+| ⌛ [tinythread.cxx] | Cross-platform implementation of the C++11 Threads API; Marcus Geelnard (2010). |
+| ⌛ [tinyxml2.cxx] | TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs; Lee Thomason (2011). |
+| ⌛ [tomlplusplus.cxx] | Header-only TOML config file parser and serializer for C++17; Mark Gillard (2020). |
+| ⌛ [trompeloeil.cxx] | Header only C++14 mocking framework; Björn Fahller (2014). |
+| ⌛ [utl.cxx] | Collection of self-contained header-only libraries for C++17; DmitriBogdanov (2023). |
+| ⌛ [visit_struct.cxx] | A miniature library for struct-field reflection in C++; Chris Beck (2016). |
+| ⌛ [vulkanmemoryallocator.cxx] | Easy to integrate Vulkan memory allocation library; GPUOpen Libraries & SDKs (2017). |
+| ⌛ [xatlas.cxx] | Mesh parameterization / UV unwrapping library; Jonathan Young (2016). |
+
+<br>
+</details>
 
 <!-- ⚙️ -->
-
-Source: [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs)
-
-See more:
-- [A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff](https://github.com/fffaraz/awesome-cpp)
-- [Libraries developed by Eskil Steenberg](https://gamepipeline.org/index.html)
-
 
 [agnes.c]: https://www.npmjs.com/package/agnes.c
 [apelang.c]: https://www.npmjs.com/package/apelang.c
@@ -313,61 +418,6 @@ See more:
 [egl.c]: https://www.npmjs.com/package/egl.c
 [sdl3.c]: https://www.npmjs.com/package/sdl3.c
 [glew.c]: https://www.npmjs.com/package/glew.c
-
-### 🍳 Others (C++)
-
-| Package | Description |
-|  ----  |  ----  |
-| ⌛ [asap.cxx] | A C++ header-only library for creating, displaying, iterating and manipulating dates; Leonardo Guilherme de Freitas (2017). |
-| ⌛ [canvas_ity.cxx] | A tiny, single-header canvas-like 2D rasterizer for C++; Andrew Kensler (2022). |
-| ⌛ [catch2.cxx] | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010). |
-| ⌛ [cds_job.cxx] | C++11 lock-free job queue; Cort Stratton (2016). |
-| ⌛ [cimg.cxx] | The CImg Library is a small and open-source C++ toolkit for image processing; GREYC (2018). |
-| ⌛ [cista.cxx] | Cista is a simple, high-performance, zero-copy C++ serialization & reflection library; Felix Gündling (2018). |
-| ⌛ [cmdline.cxx] | A Command Line Parser; Hideyuki Tanaka (2009). |
-| ⌛ [cpp-httplib.cxx] | A C++ header-only HTTP/HTTPS server and client library; yhirose (2012). |
-| ⌛ [cpp-mmaplib.cxx] | A single file C++11 header-only memory mapped file library; yhirose (2016). |
-| ⌛ [cpp-peglib.cxx] | A single file C++ header-only PEG (Parsing Expression Grammars) library; yhirose (2015). |
-| ⌛ [cpp-unicodelib.cxx] | A C++17 header-only Unicode library. (Unicode 16.0.0); yhirose (2016). |
-| ⌛ [debug-draw.cxx] | Immediate-mode, renderer agnostic, lightweight debug drawing API; Guilherme Lampert (2015). |
-| ⌛ [doctest.cxx] | The fastest feature-rich C++11/14/17/20/23 single-header testing framework; Viktor Kirilov (2016). |
-| ⌛ [flags.cxx] | ⛳ Simple, extensible, header-only C++17 argument parser released into the public domain; sailormoon (2016). |
-| ⌛ [hippomocks.cxx] | Single-header mocking framework; Peter Bindels (2008). |
-| ⌛ [imgui.cxx] | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies; Omar (2014). |
-| ⌛ [immediate2d.cxx] | A C++ drawing framework for Windows that makes simple graphics programming as fun and easy as the days when computers booted directly to a BASIC prompt; Nicholas Piegdon (2017). |
-| ⌛ [inja.cxx] | A Template Engine for Modern C++; Berscheid (2017). |
-| ⌛ [jargsparser.cxx] | A head-only arguments parser(argsparser) c++11 lib; Zhengqiao Wang (2022). |
-| ⌛ [json.cxx] | JSON for Modern C++; Niels Lohmann (2013). |
-| ⌛ [linalg.cxx] | linalg.h is a single header, public domain, short vector math library for C++; Sterling Orsten (2016). |
-| ⌛ [lurlparser.cxx] | Lightweight URL & URI parser (RFC 1738, RFC 3986); Sergey Kosarevsky (2015). |
-| ⌛ [micropather.cxx] | MicroPather is a path finder and A* solver (astar or a-star) written in platform independent C++ that can be easily integrated into existing code. MicroPather focuses on being a path finding engine for video games but is a generic A* solver; Lee Thomason (2012). |
-| ⌛ [microprofile.cxx] | microprofile is an embeddable profiler; Jonas Meyer (2013). |
-| ⌛ [mini-yaml.cxx] | Single header YAML 1.0 C++11 serializer/deserializer; Jimmie Bergmann (2018). |
-| ⌛ [obfuscate.cxx] | Guaranteed compile-time string literal obfuscation header-only library for C++14; Adam Yaxley (2017). |
-| ⌛ [parg.cxx] | A header only c++ library for parsing command line arguments and generating usage/help output; Brett Robinson (2018). |
-| ⌛ [programoptions.cxx] | Single-header program options parsing library for C++11; Fytch (2017). |
-| ⌛ [pugixml.cxx] | Light-weight, simple and fast XML parser for C++ with XPath support; Arseny Kapoulkine (2006). |
-| ⌛ [random.cxx] | Random for modern C++ with convenient API; Illia (2017). |
-| ⌛ [simple-svg.cxx] | Easy to use SVG library for C++ (fork of legacy Google code project archive); Adi Shavit (2015). |
-| ⌛ [str_view.cxx] | Null-termination-aware string-view class for C++; Adam Sawicki (2018). |
-| ⌛ [str.cxx] | Lightweight C++ string type with a configurable local buffer; Omar (2015). |
-| ⌛ [swarmz.cxx] | A free, header-only C++ swarming (flocking) library for real-time applications; Michael (2016). |
-| ⌛ [tinyformat.cxx] | Minimal, type safe printf replacement library for C++; Claire Foster (2011). |
-| ⌛ [tinyobjloader.cxx] | Tiny but powerful single file wavefront obj loader; tinyobjloader (2012). |
-| ⌛ [tinyply.cxx] | 🌍 C++11 ply 3d mesh format importer & exporter; Dimitri Diakopoulos (2015). |
-| ⌛ [tinythread.cxx] | Cross-platform implementation of the C++11 Threads API; Marcus Geelnard (2010). |
-| ⌛ [tinyxml2.cxx] | TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs; Lee Thomason (2011). |
-| ⌛ [tomlplusplus.cxx] | Header-only TOML config file parser and serializer for C++17; Mark Gillard (2020). |
-| ⌛ [trompeloeil.cxx] | Header only C++14 mocking framework; Björn Fahller (2014). |
-| ⌛ [utl.cxx] | Collection of self-contained header-only libraries for C++17; DmitriBogdanov (2023). |
-| ⌛ [visit_struct.cxx] | A miniature library for struct-field reflection in C++; Chris Beck (2016). |
-| ⌛ [vulkanmemoryallocator.cxx] | Easy to integrate Vulkan memory allocation library; GPUOpen Libraries & SDKs (2017). |
-| ⌛ [xatlas.cxx] | Mesh parameterization / UV unwrapping library; Jonathan Young (2016). |
-
-<!-- ⚙️ -->
-
-Source: [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs)
-
 [algebra3.cxx]: https://www.npmjs.com/package/algebra3.cxx
 [asap.cxx]: https://www.npmjs.com/package/asap.cxx
 [canvas_ity.cxx]: https://www.npmjs.com/package/canvas_ity.cxx
