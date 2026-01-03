@@ -5,7 +5,7 @@ Packages made for ⚙️ C/C++, 📦 *Node.js*, 🌐 *Web*, 🐚 *Bash*, and �
 
 ## Single-file C/C++ libraries (cpoach project)
 
-The **cpoach** project was motivated by the need for easy-to-use, C/C++ libraries that can be effortlessly installed (via `npm`), and integrated into C/C++ projects - without the hassle of build systems (rather, just like `#include <stdio.h>`), and without including the third-party libraries into the project's version control. This is mainly to facilitate in-class demonstrations and assignments. The name **cpoach** is a playful nod to the idea of *poaching* awesome C/C++ libraries and making them easily accessible for educational purposes. Many of these libraries are listed in [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs), or [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp). I was listening to Eskil Steenberg's talk on [Advanced C](https://www.youtube.com/watch?v=w3_e9vZj7D8), which you should also look into. He also has a [collection of C libraries](https://gamepipeline.org/index.html) that you may want to explore.
+The **cpoach** project was motivated by the need for easy-to-use, C/C++ libraries that can be effortlessly installed (via `npm`), and integrated into C/C++ projects - without the hassle of build systems (rather, just like `#include <stdio.h>`), and without including the third-party libraries into the project's version control. This is mainly to facilitate in-class demonstrations and assignments. The name **cpoach** is a playful nod to the idea of *poaching* awesome C/C++ libraries and making them easily accessible for educational purposes. Many of these libraries are listed in [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs), [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp), or [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp). I was listening to Eskil Steenberg's talk on [Advanced C](https://www.youtube.com/watch?v=w3_e9vZj7D8), which you should also look into. He also has a [collection of C libraries](https://gamepipeline.org/index.html) that you may want to explore.
 
 Issues or suggestions regarding a specific library should be directed to the original library repository. However, for issues or suggestions related to the **cpoach** project, please [open an issue here](https://github.com/nodef/nodef.github.io/issues).
 
@@ -235,20 +235,17 @@ Below is a categorized list of single-file C/C++ libraries available through the
 |  ----  |  ----  |
 | ⚙️ [debugbreak.c] | Break into the debugger programmatically; Scott Tsai (2011). |
 | ⚙️ [b_stacktrace.c] | A minimalistic single-header multi-platform C89 lib for stack tracing; Borislav Stanimirov (2020). |
+| ⚙️ [clove-unit.c] | Single-Header Unit Testing framework for C (interoperable with C++) with test autodiscovery feature; Federico De Felici (2021). |
 | ⌛ [remotery.c] | Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer; Celtoys (2014). |
 | ⌛ **tracy.cxx** | Frame profiler; Bartosz Taudul ([XXXX](https://github.com/wolfpld/tracy)). |
 | ⌛ [errnoname.c] | errnoname is a C library that lets us get the symbolic name for each errno integer value; mentalisttraceur (2019). |
 | ⌛ [fctx.c] | C unit testing in a header (works for C++ too!); Ian Blumel (2008). |
 | ⌛ [greatest.c] | A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed; Scott Vokes (2012). |
-| ⌛ [utest.c] | An ultra-lightweight, micro unit test framework for C99 presented as a single-header; Oli Wilkinson (2015). |
-| ⌛ [utest-h.c] | 🧪 single header unit testing framework for C and C++; Neil Henning (2015). |
+| ⌛ [utest.c] | 🧪 single header unit testing framework for C and C++; Neil Henning (2015). |
 | ⌛ [minctest.c] | tiny unit testing framework for ANSI C; Lewis Van Winkle (2015). |
 | ⌛ [labrat.c] | Simple, single-file test harness for C/C++; Alex Thayer (2016). |
 | ⌛ [munit.c] | µnit is a small testing framework for C; Evan Nemerson (2016). |
 | ⌛ [rexo.c] | Neat single-file cross-platform unit testing framework for C/C++; Christopher Crouzet (2018). |
-| ⌛ [picotest.c] | Picotest is a minimal C89 unit test framework, consisting of a single header file that defines 7 macros.; colinbarry (2020). |
-| ⌛ [clove-unit.c] | Single-Header Unit Testing framework for C (interoperable with C++) with test autodiscovery feature; Federico De Felici (2021). |
-| ⌛ [walter.c] | Write unit tests in C with no boilerplate; irek (2022). |
 
 <br>
 </details>
@@ -371,7 +368,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [openmodal.c]: https://www.npmjs.com/package/openmodal.c
 [parg.c]: https://www.npmjs.com/package/parg.c
 [parson.c]: https://www.npmjs.com/package/parson.c
-[picotest.c]: https://www.npmjs.com/package/picotest.c
 [pl_mpeg.c]: https://www.npmjs.com/package/pl_mpeg.c
 [pocketmod.c]: https://www.npmjs.com/package/pocketmod.c
 [pocketpy.c]: https://www.npmjs.com/package/pocketpy.c
@@ -396,7 +392,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [tinyexpr.c]: https://www.npmjs.com/package/tinyexpr.c
 [tinyfiledialogs.c]: https://www.npmjs.com/package/tinyfiledialogs.c
 [tinyobjloader.c]: https://www.npmjs.com/package/tinyobjloader.c
-[utest-h.c]: https://www.npmjs.com/package/utest-h.c
 [utest.c]: https://www.npmjs.com/package/utest.c
 [utf8.c]: https://www.npmjs.com/package/utf8.c
 [utf8proc.c]: https://www.npmjs.com/package/utf8proc.c
@@ -404,7 +399,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [uuid_h.c]: https://www.npmjs.com/package/uuid_h.c
 [uuid4.c]: https://www.npmjs.com/package/uuid4.c
 [voxelizer.c]: https://www.npmjs.com/package/voxelizer.c
-[walter.c]: https://www.npmjs.com/package/walter.c
 [wcwidth9.c]: https://www.npmjs.com/package/wcwidth9.c
 [webby.c]: https://www.npmjs.com/package/webby.c
 [webview.c]: https://www.npmjs.com/package/webview.c
@@ -565,6 +559,22 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [extra-bel.sh]: https://www.npmjs.com/package/extra-bel.sh
 [nvgraph.sh]: https://www.npmjs.com/package/nvgraph.sh
 [snap-data.sh]: https://www.npmjs.com/package/snap-data.sh
+
+<br>
+
+
+## GitHub Actions
+
+| Package | Description |
+|  ----  |  ----  |
+| 🎬 [Configure git] | A GitHub Action for configuring git. |
+| 🎬 [Configure npm] | A GitHub Action for configuring npm. |
+| 🎬 [JSR Mirror] | A GitHub Action for mirroring JavaScript Registry (JSR) packages to other registries. |
+
+
+[Configure git]: https://github.com/marketplace/actions/configure-git
+[Configure npm]: https://github.com/marketplace/actions/configure-npm
+[JSR Mirror]: https://github.com/marketplace/actions/jsr-mirror
 
 <br>
 <br>
