@@ -5,7 +5,7 @@ Packages made for ⚙️ C/C++, 📦 *Node.js*, 🌐 *Web*, 🐚 *Bash*, and �
 
 ## Single-file C/C++ libraries (cpoach project)
 
-The **cpoach** project was motivated by the need for easy-to-use, C/C++ libraries that can be effortlessly installed (via `npm`), and integrated into C/C++ projects - without the hassle of build systems (rather, just like `#include <stdio.h>`), and without including the third-party libraries into the project's version control. This is mainly to facilitate in-class demonstrations and assignments. The name **cpoach** is a playful nod to the idea of *poaching* awesome C/C++ libraries and making them easily accessible for educational purposes. Many of these libraries are listed in [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs), or [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp). I was listening to Eskil Steenberg's talk on [Advanced C](https://www.youtube.com/watch?v=w3_e9vZj7D8), which you should also look into. He also has a [collection of C libraries](https://gamepipeline.org/index.html) that you may want to explore.
+The **cpoach** project was motivated by the need for easy-to-use, C/C++ libraries that can be effortlessly installed (via `npm`), and integrated into C/C++ projects - without the hassle of build systems (rather, just like `#include <stdio.h>`), and without including the third-party libraries into the project's version control. This is mainly to facilitate in-class demonstrations and assignments. The name **cpoach** is a playful nod to the idea of *poaching* awesome C/C++ libraries and making them easily accessible for educational purposes. Many of these libraries are listed in [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs), [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp), or [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp). I was listening to Eskil Steenberg's talk on [Advanced C](https://www.youtube.com/watch?v=w3_e9vZj7D8), which you should also look into. He also has a [collection of C libraries](https://gamepipeline.org/index.html) that you may want to explore.
 
 Issues or suggestions regarding a specific library should be directed to the original library repository. However, for issues or suggestions related to the **cpoach** project, please [open an issue here](https://github.com/nodef/nodef.github.io/issues).
 
@@ -565,6 +565,22 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [extra-bel.sh]: https://www.npmjs.com/package/extra-bel.sh
 [nvgraph.sh]: https://www.npmjs.com/package/nvgraph.sh
 [snap-data.sh]: https://www.npmjs.com/package/snap-data.sh
+
+<br>
+
+
+## GitHub Actions
+
+| Package | Description |
+|  ----  |  ----  |
+| 🎬 [Configure git] | A GitHub Action for configuring git. |
+| 🎬 [Configure npm] | A GitHub Action for configuring npm. |
+| 🎬 [JSR Mirror] | A GitHub Action for mirroring JavaScript Registry (JSR) packages to other registries. |
+
+
+[Configure git]: https://github.com/marketplace/actions/configure-git
+[Configure npm]: https://github.com/marketplace/actions/configure-npm
+[JSR Mirror]: https://github.com/marketplace/actions/jsr-mirror
 
 <br>
 <br>
