@@ -257,10 +257,10 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [hedley.c] | A C/C++ header to help move #ifdefs out of your code; Evan Nemerson (2016). |
+| ⚙️ [catch2.cxx] | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010). |
 | ⌛ [endianness.c] | Simple public domain header to get endianess at compile time on a variety of platforms; rofl0r (2017). |
 | ⌛ [asap.cxx] | A C++ header-only library for creating, displaying, iterating and manipulating dates; Leonardo Guilherme de Freitas (2017). |
 | ⌛ [canvas_ity.cxx] | A tiny, single-header canvas-like 2D rasterizer for C++; Andrew Kensler (2022). |
-| ⌛ [catch2.cxx] | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010). |
 | ⌛ [cds_job.cxx] | C++11 lock-free job queue; Cort Stratton (2016). |
 | ⌛ [cimg.cxx] | The CImg Library is a small and open-source C++ toolkit for image processing; GREYC (2018). |
 | ⌛ [cista.cxx] | Cista is a simple, high-performance, zero-copy C++ serialization & reflection library; Felix Gündling (2018). |
