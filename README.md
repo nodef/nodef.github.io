@@ -17,9 +17,10 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
+| ⚙️ [boost.cxx] | A collection of high-quality, free, and open-source libraries that extend the functionality of the C++ programming language; Dawes et al. (1998). |
 | ⚙️ [stb.c] | stb single-file public domain libraries for C/C++; Sean Barrett (2014). |
 | ⚙️ [plibsys.c] | Highly portable C system library: threads and synchronization primitives, sockets (TCP, UDP, SCTP), IPv4 and IPv6, IPC, hash functions (MD5, SHA-1, SHA-2, SHA-3, GOST), binary trees (RB, AVL) and more. Native code performance; Alexander Saprykin (2010). |
-| ⌛ [libgb.c] | gb single-file public domain libraries for C & C++; gingerBill (2015). |
+| ⚙️ [libgb.c] | gb single-file public domain libraries for C & C++; gingerBill (2015). |
 | ⌛ [prideout.c] | single-file C libraries from Philip Allan Rideout; Philip Rideout (2015). |
 
 <br>
@@ -31,6 +32,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
+| ⚙️ [taskflow.cxx] | A General-purpose Task-parallel Programming System using Modern C++; Tsung-Wei Huang (2018). |
 | ⚙️ [subprocess.c] | 🐜 Single header process launching solution for C and C++; Neil Henning (2017). |
 | ⚙️ [tinycthread.c] | Small, portable implementation of the C11 threads API; Evan Nemerson (2012). |
 | ⚙️ [pthreads4w.c] | POSIX threads API for Windows from https://sourceforge.net/p/pthreads4w; Ben Elliston (1998). |
@@ -42,6 +44,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⚙️ [linmath.c] | A lean linear math library, aimed at graphics programming. Supports vec3, vec4, mat4x4 and quaternions; Wolfgang Draxinger (2013). |
 | ⚙️ [algebra3.cxx] | Vector utilities for 2, 3, and 4 element vectors, all inline; Jean-Francois Doue, Paul S. Heckbert, and J. Nagle (1993). |
 | ⚙️ [stb_stats.c] | Single header file with a bunch of useful statistical functions such as ANOVA, Kruskal-Wallis, T-test, etc; Gerben Voshol (2018). |
+| ⚙️ [cxxgraph.cxx] | Header-Only C++ Library for Graph Representation and Algorithms; ZigRazor (2020). |
 | ⌛ [opencl.c] | C/C++ language headers for the OpenCL API; The Khronos Group (2013). |
 | ⌛ **clew.c** | The OpenCL Extension Wrangler Library; Martijn Berger ([XXXX](https://github.com/martijnberger/clew)). |
 | ⌛ [bikeshed.c] | Lock free hierarchical work scheduler; Dan Engelbrecht (2019). |
@@ -70,6 +73,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [clay.c] | High performance UI layout library in C; Nic Barker (2024). |
+| ⚙️ [nuklear.c] | A single-header ANSI C immediate mode cross-platform GUI library; Micha Mettke (2015). |
 | ⚙️ [microui.c] | A tiny immediate-mode UI library; rxi (2018). |
 | ⚙️ [tigr.c] | TIGR - the TIny GRaphics library for Windows, macOS, Linux, iOS and Android. |
 | ⚙️ [rgfw.c] | A cross platform lightweight single-header simple-to-use window abstraction library for creating graphical programs or libraries; Riley Mabb (2023). |
@@ -78,7 +82,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⚙️ [vulkan.c] | Vulkan header files and API registry; The Khronos Group (2018). |
 | ⚙️ [egl.c] | EGL API and Extension Registry; The Khronos Group (2016). |
 | ⚙️ [voxelizer.c] | Header only mesh voxelizer in c99; Karim Naaji (2016). |
-| ⚙️ [rang.cxx] | A Minimal, Header only Modern c++ library for terminal goodies; Abhinav Gauniyal (2016). |
 | ⌛ [sdl3.c] | Simple DirectMedia Layer; Sam Lantinga (1997). |
 | ⌛ **openvr.c** | OpenVR SDK; Valve Software ([XXXX](https://github.com/ValveSoftware/openvr)). |
 | ⌛ [openmodal.c] | Dependency free, cross-platform, single header lib to open native file modals; bzt (2023). |
@@ -87,6 +90,23 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⌛ [sdl3.c] | Simple DirectMedia Layer; Sam Lantinga (1997). |
 | ⌛ [glew.c] | The OpenGL Extension Wrangler Library; Milan Ikits and Marcelo Magallon (2002). |
 | ⌛ [rfont.c] | Simple-to-use single header modular font rendering library written in C; Riley Mabb (2023). |
+
+<br>
+</details>
+
+<details markdown="1">
+<summary> 🍳 Terminal utilities</summary>
+<br>
+
+| Package | Description |
+|  ----  |  ----  |
+| ⚙️ [indicators.cxx] | Activity Indicators for Modern C++; Pranav (2019). |
+| ⚙️ [rang.cxx] | A Minimal, Header only Modern c++ library for terminal goodies; Abhinav Gauniyal (2016). |
+| ⚙️ [termcolor.cxx] | Termcolor is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force; Ihor Kalnytskyi (2013). |
+| ⚙️ [linenoise.c] | A small self-contained alternative to readline and libedit; Salvatore Sanfilippo (2010). |
+| ⚙️ [parg.c] | Parser for argv that works similarly to getopt; Jørgen Ibsen (2015). |
+| ⚙️ [parg.cxx] | A header only c++ library for parsing command line arguments and generating usage/help output; Brett Robinson (2018). |
+| ⚙️ [cmdline.cxx] | A Command Line Parser; Hideyuki Tanaka (2009). |
 
 <br>
 </details>
@@ -110,9 +130,9 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [miniaudio.c] | Audio playback and capture library written in C, in a single source file; David Reid (2016). |
+| ⚙️ [minimp3.c] | Minimalistic MP3 decoder single header library; Lion (2018). |
 | ⌛ [dr_libs.c] | Audio decoding libraries for C/C++, each in a single source file; David Reid (2015). |
 | ⌛ [tflac.c] | A single file, freestanding FLAC encoding library in C89; John Regan (2024). |
-| ⌛ [minimp3.c] | Minimalistic MP3 decoder single header library; Lion (2018). |
 | ⌛ [pocketmod.c] | Small ANSI C library for turning ProTracker MOD files into playable PCM audio; rombankzero (2018). |
 | ⌛ [atomix.c] | Portable, single-file, wait-free atomic sound mixing library utilizing SSE-accelerated mixing; BareRose (2018). |
 
@@ -125,6 +145,8 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
+| ⚙️ [httplib.cxx] | A C++ header-only HTTP/HTTPS server and client library; yhirose (2012). |
+| ⌛ [crow.cxx] | A Fast and Easy to use microframework for the web; Jaeseung Ha (2014). |
 | ⌛ [mongoose.c] | Embedded web server, with TCP/IP network stack, MQTT and Websocket; Cesanta Software (2010). |
 | ⌛ [webby.c] | A tiny webserver for game development; Andreas Fredriksson (2012). |
 | ⌛ [concord.c] | A Discord API wrapper library made in C; Cogmasters (2020). |
@@ -139,6 +161,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | Package | Description |
 |  ----  |  ----  |
 | ⚙️ [lz4.c] | Extremely Fast Compression algorithm; lz4 (2011). |
+| ⚙️ [zlib.c] | A massively spiffy yet delicately unobtrusive compression library; Mark Adler (2011). |
 | ⚙️ [dmc_unrar.c] | A dependency-free, single-file FLOSS unrar library; Sven Hesse (2017). |
 | ⌛ [microtar.c] | A lightweight tar library written in ANSI C; rxi (2016). |
 | ⌛ [miniz.c] | miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz; Rich Geldreich (2011). |
@@ -166,7 +189,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⚙️ [parson.c] | Lightweight JSON library written in C; Krzysztof Gabis (2012). |
 | ⚙️ [mini.cxx] | INI file reader and writer; Danijel Durakovic (2018). |
 | ⚙️ [lurlparser.cxx] | Lightweight URL & URI parser (RFC 1738, RFC 3986); Sergey Kosarevsky (2015). |
-| ⚙️ [parg.c] | Parser for argv that works similarly to getopt; Jørgen Ibsen (2015). |
 | ⌛ [inih.c] | Simple .INI file parser in C, good for embedded systems; Ben Hoyt (2009). |
 | ⌛ [yxml.c] | Yxml is a small (6 KiB) non-validating yet mostly conforming XML parser written in C; Yorhel (2013). |
 | ⌛ **tiny-json.c** | The tiny-json is a versatile and easy to use json parser in C suitable for embedded systems. It is fast, robust and portable; Rafa Garcia ([XXXX](https://github.com/rafagafe/tiny-json)). |
@@ -178,7 +200,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⌛ [cmp.c] | An implementation of the MessagePack serialization format in C / msgpack.org; Charlie Gunyon (2014). |
 | ⌛ [libcmdf.c] | Single-header library for writing CLI applications in C/C++; Ronen Kreimer (2017). |
 | ⌛ [kgflags.c] | kgflags is an easy to use command-line flag parsing library; Krzysztof Gabis (2020). |
-| ⌛ [linenoise.c] | A small self-contained alternative to readline and libedit; Salvatore Sanfilippo (2010). |
 
 <br>
 </details>
@@ -189,6 +210,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
+| ⚙️ [peglib.cxx] | A single file C++ header-only PEG (Parsing Expression Grammars) library; yhirose (2015). |
 | ⚙️ [remimu.c] | Single-file header-only regex engine, C99/C++11; Alexander Nadeau (2024). |
 | ⚙️ [slre.c] | Super Light Regular Expressions; Aquefir (2013). |
 | ⚙️ [unformat.cxx] | Fastest type-safe parsing library in the world for C++14 or C++17 (up to 300x faster than std::regex); Adam Yaxley (2017). |
@@ -236,6 +258,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⚙️ [debugbreak.c] | Break into the debugger programmatically; Scott Tsai (2011). |
 | ⚙️ [b_stacktrace.c] | A minimalistic single-header multi-platform C89 lib for stack tracing; Borislav Stanimirov (2020). |
 | ⚙️ [clove-unit.c] | Single-Header Unit Testing framework for C (interoperable with C++) with test autodiscovery feature; Federico De Felici (2021). |
+| ⚙️ [rexo.c] | Neat single-file cross-platform unit testing framework for C/C++; Christopher Crouzet (2018). |
 | ⌛ [remotery.c] | Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer; Celtoys (2014). |
 | ⌛ **tracy.cxx** | Frame profiler; Bartosz Taudul ([XXXX](https://github.com/wolfpld/tracy)). |
 | ⌛ [errnoname.c] | errnoname is a C library that lets us get the symbolic name for each errno integer value; mentalisttraceur (2019). |
@@ -245,7 +268,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⌛ [minctest.c] | tiny unit testing framework for ANSI C; Lewis Van Winkle (2015). |
 | ⌛ [labrat.c] | Simple, single-file test harness for C/C++; Alex Thayer (2016). |
 | ⌛ [munit.c] | µnit is a small testing framework for C; Evan Nemerson (2016). |
-| ⌛ [rexo.c] | Neat single-file cross-platform unit testing framework for C/C++; Christopher Crouzet (2018). |
 
 <br>
 </details>
@@ -256,15 +278,20 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
+| ⚙️ [units.cxx] | A compile-time, header-only, dimensional analysis and unit conversion library built on C++14 with no dependencies; Nic Holthaus (2016). |
+| ⚙️ [magic_enum.cxx] | Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code; Daniil Goncharov (2019). |
+| ⚙️ [nameof.cxx] | Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum; Daniil Goncharov (2016). |
+| ⚙️ [scope_guard.cxx] | Scope Guard & Defer C++; Daniil Goncharov (2018). |
+| ⚙️ [semver.cxx] | Semantic Versioning for modern C++; Daniil Goncharov (2018). |
 | ⚙️ [hedley.c] | A C/C++ header to help move #ifdefs out of your code; Evan Nemerson (2016). |
 | ⚙️ [catch2.cxx] | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch); Martin Hořeňovský (2010). |
+| ⚙️ [macroarg.c] | Manage arguments of macros in C. |
 | ⌛ [endianness.c] | Simple public domain header to get endianess at compile time on a variety of platforms; rofl0r (2017). |
 | ⌛ [asap.cxx] | A C++ header-only library for creating, displaying, iterating and manipulating dates; Leonardo Guilherme de Freitas (2017). |
 | ⌛ [canvas_ity.cxx] | A tiny, single-header canvas-like 2D rasterizer for C++; Andrew Kensler (2022). |
 | ⌛ [cds_job.cxx] | C++11 lock-free job queue; Cort Stratton (2016). |
 | ⌛ [cimg.cxx] | The CImg Library is a small and open-source C++ toolkit for image processing; GREYC (2018). |
 | ⌛ [cista.cxx] | Cista is a simple, high-performance, zero-copy C++ serialization & reflection library; Felix Gündling (2018). |
-| ⌛ [cmdline.cxx] | A Command Line Parser; Hideyuki Tanaka (2009). |
 | ⌛ [cpp-httplib.cxx] | A C++ header-only HTTP/HTTPS server and client library; yhirose (2012). |
 | ⌛ [cpp-mmaplib.cxx] | A single file C++11 header-only memory mapped file library; yhirose (2016). |
 | ⌛ [cpp-peglib.cxx] | A single file C++ header-only PEG (Parsing Expression Grammars) library; yhirose (2015). |
@@ -284,7 +311,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⌛ [microprofile.cxx] | microprofile is an embeddable profiler; Jonas Meyer (2013). |
 | ⌛ [mini-yaml.cxx] | Single header YAML 1.0 C++11 serializer/deserializer; Jimmie Bergmann (2018). |
 | ⌛ [obfuscate.cxx] | Guaranteed compile-time string literal obfuscation header-only library for C++14; Adam Yaxley (2017). |
-| ⌛ [parg.cxx] | A header only c++ library for parsing command line arguments and generating usage/help output; Brett Robinson (2018). |
 | ⌛ [programoptions.cxx] | Single-header program options parsing library for C++11; Fytch (2017). |
 | ⌛ [pugixml.cxx] | Light-weight, simple and fast XML parser for C++ with XPath support; Arseny Kapoulkine (2006). |
 | ⌛ [random.cxx] | Random for modern C++ with convenient API; Illia (2017). |
@@ -314,6 +340,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [atomix.c]: https://www.npmjs.com/package/atomix.c
 [b_stacktrace.c]: https://www.npmjs.com/package/b_stacktrace.c
 [bikeshed.c]: https://www.npmjs.com/package/bikeshed.c
+[boost.cxx]: https://www.npmjs.com/package/boost.cxx
 [buddy_alloc.c]: https://www.npmjs.com/package/buddy_alloc.c
 [ccvector.c]: https://www.npmjs.com/package/ccvector.c
 [cds_sync.c]: https://www.npmjs.com/package/cds_sync.c
@@ -323,7 +350,9 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [clove-unit.c]: https://www.npmjs.com/package/clove-unit.c
 [cmp.c]: https://www.npmjs.com/package/cmp.c
 [concord.c]: https://www.npmjs.com/package/concord.c
+[crow.cxx]: https://www.npmjs.com/package/crow.cxx
 [csplit.c]: https://www.npmjs.com/package/csplit.c
+[cxxgraph.cxx]: https://www.npmjs.com/package/cxxgraph.cxx
 [debugbreak.c]: https://www.npmjs.com/package/debugbreak.c
 [dmc_unrar.c]: https://www.npmjs.com/package/dmc_unrar.c
 [doops.c]: https://www.npmjs.com/package/doops.c
@@ -338,7 +367,9 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [greatest.c]: https://www.npmjs.com/package/greatest.c
 [handmademath.c]: https://www.npmjs.com/package/handmademath.c
 [hedley.c]: https://www.npmjs.com/package/hedley.c
+[httplib.cxx]: https://www.npmjs.com/package/httplib.cxx
 [hypatia.c]: https://www.npmjs.com/package/hypatia.c
+[indicators.cxx]: https://www.npmjs.com/package/indicators.cxx
 [inih.c]: https://www.npmjs.com/package/inih.c
 [jo_mpeg.c]: https://www.npmjs.com/package/jo_mpeg.c
 [kann.c]: https://www.npmjs.com/package/kann.c
@@ -351,6 +382,8 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [linenoise.c]: https://www.npmjs.com/package/linenoise.c
 [linmath.c]: https://www.npmjs.com/package/linmath.c
 [lz4.c]: https://www.npmjs.com/package/lz4.c
+[macroarg.c]: https://www.npmjs.com/package/macroarg.c
+[magic_enum.cxx]: https://www.npmjs.com/package/magic_enum.cxx
 [microtar.c]: https://www.npmjs.com/package/microtar.c
 [microui.c]: https://www.npmjs.com/package/microui.c
 [minctest.c]: https://www.npmjs.com/package/minctest.c
@@ -364,10 +397,12 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [monocypher.c]: https://www.npmjs.com/package/monocypher.c
 [munit.c]: https://www.npmjs.com/package/munit.c
 [my_basic.c]: https://www.npmjs.com/package/my_basic.c
+[nameof.cxx]: https://www.npmjs.com/package/nameof.cxx
 [nuklear.c]: https://www.npmjs.com/package/nuklear.c
 [openmodal.c]: https://www.npmjs.com/package/openmodal.c
 [parg.c]: https://www.npmjs.com/package/parg.c
 [parson.c]: https://www.npmjs.com/package/parson.c
+[peglib.cxx]: https://www.npmjs.com/package/peglib.cxx
 [pl_mpeg.c]: https://www.npmjs.com/package/pl_mpeg.c
 [pocketmod.c]: https://www.npmjs.com/package/pocketmod.c
 [pocketpy.c]: https://www.npmjs.com/package/pocketpy.c
@@ -380,12 +415,16 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [rfft.c]: https://www.npmjs.com/package/rfft.c
 [rfont.c]: https://www.npmjs.com/package/rfont.c
 [rgfw.c]: https://www.npmjs.com/package/rgfw.c
+[scope_guard.cxx]: https://www.npmjs.com/package/scope_guard.cxx
+[semver.cxx]: https://www.npmjs.com/package/semver.cxx
 [slre.c]: https://www.npmjs.com/package/slre.c
 [stb_stats.c]: https://www.npmjs.com/package/stb_stats.c
 [stb.c]: https://www.npmjs.com/package/stb.c
 [stmr.c]: https://www.npmjs.com/package/stmr.c
 [str.c]: https://www.npmjs.com/package/str.c
 [subprocess.c]: https://www.npmjs.com/package/subprocess.c
+[taskflow.cxx]: https://www.npmjs.com/package/taskflow.cxx
+[termcolor.cxx]: https://www.npmjs.com/package/termcolor.cxx
 [tflac.c]: https://www.npmjs.com/package/tflac.c
 [tigr.c]: https://www.npmjs.com/package/tigr.c
 [tinycthread.c]: https://www.npmjs.com/package/tinycthread.c
@@ -458,10 +497,12 @@ Below is a categorized list of single-file C/C++ libraries available through the
 [tomlplusplus.cxx]: https://www.npmjs.com/package/tomlplusplus.cxx
 [trompeloeil.cxx]: https://www.npmjs.com/package/trompeloeil.cxx
 [unformat.cxx]: https://www.npmjs.com/package/unformat.cxx
+[units.cxx]: https://www.npmjs.com/package/units.cxx
 [utl.cxx]: https://www.npmjs.com/package/utl.cxx
 [visit_struct.cxx]: https://www.npmjs.com/package/visit_struct.cxx
 [vulkanmemoryallocator.cxx]: https://www.npmjs.com/package/vulkanmemoryallocator.cxx
 [xatlas.cxx]: https://www.npmjs.com/package/xatlas.cxx
+[zlib.c]: https://www.npmjs.com/package/zlib.c
 
 <br>
 
