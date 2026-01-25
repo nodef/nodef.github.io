@@ -516,6 +516,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | 🌐 [extra-integer] | A 32-bit integer can store values from −2^31 to 2^31 − 1. |
 | 🌐 [extra-number] | A number is a mathematical object used to count, measure, and label. |
 | 🌐 [extra-bigint] | A BigInt can represent whole numbers larger than 2⁵³ - 1. |
+| 🌐 [extra-string] | A collection of common string functions. |
 | 🌐 [extra-math] | Mathematics is the classification and study of all possible patterns. |
 | 🌐 [extra-function] | A function is a set of statements that performs a task or calculates a value. |
 | 🌐 [extra-async-function] | An async function is a function that delivers its result asynchronously (through Promise). |
@@ -534,7 +535,6 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | 🌐 [extra-markdown-text] | Utility methods for Markdown text. |
 | 📦 [extra-build] | Common build tools for extra-* packages. |
 | ⌛ [extra-lists] | Lists is a pair of key list and value list, with unique keys. |
-| ⌛ [extra-string] | A collection of common string functions. |
 | ⌛ [extra-wordnet] | WordNet is a lexical database of semantic relations between words. |
 | ⌛ [extra-sorted-array] | A sorted array is a collection of values, arranged in an order. |
 
@@ -584,13 +584,13 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
+| 🖥️ [sleep.cmd] | Sleep for specified time in Windows Command prompt. |
 | 🐚 [cls.sh] | Clear screen and scrollback on Linux. |
 | 🖥️ [clear.cmd] | Clear screen like Unix in Windows Command prompt. |
-| 🖥️ [sleep.cmd] | Sleep for specified time in Windows Command prompt. |
-| 🐚 [extra-cd] | Change the working directory, with shortcuts and listing. |
 | 🐚 [extra-bel.sh] | Produce BEL sound in Linux Terminal. |
-| 🐚 [nvgraph.sh] | CLI for nvGraph, which is a GPU-based graph analytics library written by NVIDIA, using CUDA. |
+| 🐚 [extra-cd] | Change the working directory, with shortcuts and listing. |
 | 🐚 [snap-data.sh] | CLI for SNAP dataset, which is a collection of more than 50 large networks. |
+| 🐚 [nvgraph.sh] | CLI for nvGraph, which is a GPU-based graph analytics library written by NVIDIA, using CUDA. |
 
 
 [cls.sh]: https://www.npmjs.com/package/cls.sh
@@ -608,8 +608,8 @@ Below is a categorized list of single-file C/C++ libraries available through the
 
 | Package | Description |
 |  ----  |  ----  |
-| 🎬 [Configure git] | A GitHub Action for configuring git. |
 | 🎬 [Configure npm] | A GitHub Action for configuring npm. |
+| 🎬 [Configure git] | A GitHub Action for configuring git. |
 | 🎬 [JSR Mirror] | A GitHub Action for mirroring JavaScript Registry (JSR) packages to other registries. |
 
 
