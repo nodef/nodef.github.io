@@ -292,9 +292,7 @@ Below is a categorized list of single-file C/C++ libraries available through the
 | ⌛ [cds_job.cxx] | C++11 lock-free job queue; Cort Stratton (2016). |
 | ⌛ [cimg.cxx] | The CImg Library is a small and open-source C++ toolkit for image processing; GREYC (2018). |
 | ⌛ [cista.cxx] | Cista is a simple, high-performance, zero-copy C++ serialization & reflection library; Felix Gündling (2018). |
-| ⌛ [cpp-httplib.cxx] | A C++ header-only HTTP/HTTPS server and client library; yhirose (2012). |
 | ⌛ [cpp-mmaplib.cxx] | A single file C++11 header-only memory mapped file library; yhirose (2016). |
-| ⌛ [cpp-peglib.cxx] | A single file C++ header-only PEG (Parsing Expression Grammars) library; yhirose (2015). |
 | ⌛ [cpp-unicodelib.cxx] | A C++17 header-only Unicode library. (Unicode 16.0.0); yhirose (2016). |
 | ⌛ [debug-draw.cxx] | Immediate-mode, renderer agnostic, lightweight debug drawing API; Guilherme Lampert (2015). |
 | ⌛ [doctest.cxx] | The fastest feature-rich C++11/14/17/20/23 single-header testing framework; Viktor Kirilov (2016). |
